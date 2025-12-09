@@ -32,8 +32,6 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
 
 
 
-
-
 // // API 基礎設定
 // const API_BASE_URL = 'http://localhost:3000/api'; // 修改為你的後端 URL
 

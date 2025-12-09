@@ -1,39 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登入畫面</title>
-    <link rel="stylesheet" href="As.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-<body>
-
-<div class="box1">
-    <h1>Login</h1>
-    <form id="loginForm">
-        <div class="box2"><input type="text" id="username" placeholder="請輸入帳號" required><i class='bx bxs-user'></i></div>
-        <div class="box2"><input type="password" id="password" placeholder="請輸入密碼" required><i class='bx bxs-lock-alt'></i></div>   
-        
-        <div class="box3">
-        男:<input type="radio" name="gender" value="男">
-        女:<input type="radio" name="gender" value="女">
-        </div>  
-
-        <div class="box4">
-            <button type="submit" class="box5">登入</button>
-            <button type="button" class="box6" onclick="goToRegister()">創建帳號</button>
-        </div>
-    </form>
-</div>
-
-<script src="app.js"></script>
-<script>
-    // 導航到創建帳號頁面
+ // 導航到創建帳號頁面
     function goToRegister() {
-        window.location.href = 'register.html';
+        window.location.href = '../createAct/createAct.html';
     }
 
     // 處理登入表單提交
@@ -100,7 +67,7 @@
             
             // 登入成功後導向首頁或儀表板
             // 你可以修改這個 URL 為你的實際首頁
-            window.location.href = 'dashboard.html';
+            window.location.href = '../createAct/createAct.html';
             
         } catch (error) {
             console.error('登入錯誤:', error);
@@ -115,14 +82,3 @@
             }
         }
     });
-</script>
-
-</body>
-</html>
-
-
-
-
-
-
-

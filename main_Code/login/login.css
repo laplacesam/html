@@ -10,7 +10,7 @@ body{
     display:flex; /* 使用 Flexbox 布局 */
     justify-content:center; /* 水平居中內容 */
     align-items:center; /* 垫直居中內容 */
-    background-image: url('cat.jpg') ; /* 設定背景圖片 */
+    background-image: url('../cat.jpg'); /* 設定背景圖片 */
     background-position: center; /* 背景圖片位置居中 */
     min-height: 100vh; /* 最小高度為整个視口高度 */
 }
